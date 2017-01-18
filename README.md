@@ -6,6 +6,7 @@ SDK API-3.0 Python Cielo
 
 * [Principais recursos](#principais-recursos)
 * [Limitações](#limitações)
+* [Instalação](#instalação)
 * [Exemplos](#exemplos)
     * [Criando um pagamento com cartão de crédito](#criando-um-pagamento-com-cartão-de-crédito)
     * [Criando um pagamento recursivo com cartão de crédito](#criando-um-pagamento-recursivo-com-cartão-de-crédito)
@@ -30,9 +31,6 @@ SDK API-3.0 Python Cielo
 ## Limitações
 
 Por envolver a interface de usuário da aplicação, o SDK funciona apenas como um framework para criação das transações. Nos casos onde a autorização é direta, não há limitação; mas nos casos onde é necessário a autenticação ou qualquer tipo de redirecionamento do usuário, o desenvolvedor deverá utilizar o SDK para gerar o pagamento e, com o link retornado pela Cielo, providenciar o redirecionamento do usuário.
-
-## Utilizando o SDK
-Para criar um pagamento simples com cartão de crédito com o SDK, basta fazer:
 
 ## Instalação
 O API-3.0 Python Cielo pode ser facilmente instalado com o comando a seguir:
